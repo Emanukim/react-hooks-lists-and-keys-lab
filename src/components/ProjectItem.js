@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 function ProjectItem({ name, about, technologies }) {
 console.log(technologies);
   const separate= technologies.map((technology) =>{return <span key={technology} >{technology}</span>})
